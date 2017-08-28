@@ -1,0 +1,37 @@
+<nav class="navbarcss">
+  <div class="navleft">
+      <button title="Facebook" class="btn btn-primary btn3d" (click)="login()">
+          <span>Facebook login</span>
+      </button>
+  </div>
+  <div class="navright">
+      <button href="#" title="Facebook" class="btn btn-primary btn3d" (click)="logout()" >
+        <span>Facebook logout</span>
+      </button>
+  </div>
+</nav>
+<body>
+  <div>
+    <button style="margin: 9% 0% 0% 11%;padding: 1% 4%;color: whitesmoke;" type="button" class="btn btn-primary btn3d" (click)="getLoginStatus()" >
+      <span>Profile</span>
+    </button>
+  </div>
+  <div *ngIf="getdeatil" class="content">
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>Total Friends</th>          
+        </tr>
+        <tr>
+          <td>{{name}}</td>
+          <td>{{email}}</td>
+          <td>{{gender}}</td>
+          <td>{{total_friends}}</td>          
+        </tr>
+      </table>
+  </div>
+
+
+</body>

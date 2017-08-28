@@ -1,0 +1,62 @@
+.navright{
+  float: right;
+  right: 0;
+}
+.navleft{
+  float: left;
+  left: 0;
+}
+.navbarcss{
+  background-color: #841b1b;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.77);
+}
+.navbarcss button {
+  float: left;
+  left: 6px;
+  top: -13px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.btn3d {
+  transition:all .08s linear;
+  position:relative;
+  outline:medium none;
+  -moz-outline-style:none;
+  border:0px;
+  margin-right:10px;
+  margin-top:15px;
+}
+.btn3d:focus {
+  outline:medium none;
+  -moz-outline-style:none;
+}
+.btn3d:active {
+  top:9px;
+}
+.btn-primary {
+  box-shadow:0 0 0 1px #4267b2 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4267b2, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+  background-color:#4267b2;
+}
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
